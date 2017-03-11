@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JeitoCerto\ItemPedido.cs" />
+    <Compile Include="JeitoCerto\Pedido.cs" />
+    <Compile Include="JeitoCerto\Produto.cs" />
     <Compile Include="JeitoErrado\ItemPedido.cs" />
+    <Compile Include="JeitoErrado\Pedido.cs" />
     <Compile Include="JeitoErrado\Produto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -51,9 +55,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="JeitoCerto\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
