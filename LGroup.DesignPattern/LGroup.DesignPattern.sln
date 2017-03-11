@@ -3,8 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.CQS", "1.CQS", "{7423846F-7C7F-4C0D-A53F-2CFA0C8CBD83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQS", "src\CQS\CQS.csproj", "{02D5237F-32CB-49CF-A4DE-61958F3B15CA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02D5237F-32CB-49CF-A4DE-61958F3B15CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D5237F-32CB-49CF-A4DE-61958F3B15CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D5237F-32CB-49CF-A4DE-61958F3B15CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D5237F-32CB-49CF-A4DE-61958F3B15CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02D5237F-32CB-49CF-A4DE-61958F3B15CA} = {7423846F-7C7F-4C0D-A53F-2CFA0C8CBD83}
 	EndGlobalSection
 EndGlobal
