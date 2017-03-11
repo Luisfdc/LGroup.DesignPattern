@@ -47,6 +47,7 @@
     <Compile Include="JeitoCerto\FileStoreComplemento1.cs" />
     <Compile Include="JeitoCerto\FileStoreComplemento2.cs" />
     <Compile Include="JeitoCerto\FileStoreComplemento3.cs" />
+    <Compile Include="JeitoCerto\FileStoreComplemento4.cs" />
     <Compile Include="JeitoErrado\FileStore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

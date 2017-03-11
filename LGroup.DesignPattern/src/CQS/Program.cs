@@ -45,7 +45,7 @@ namespace CQS
 
             var result = fileStore.Read(idFile);
 
-            if (result.Any())
+            if (result.Any(x => !string.IsNullOrEmpty(x)))
                 foreach (var res in result)
                     Console.WriteLine(res);
             else
